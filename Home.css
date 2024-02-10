@@ -240,11 +240,10 @@
 }
 
 .u-section-2 .u-text-1 {
-  margin-top: 0;
-  font-size: 6rem;
+  font-size: 3.75rem;
   font-family: Poppins;
   font-weight: bold;
-  margin-bottom: 0;
+  margin: 35px auto 0 0;
 }
 
 .u-section-2 .u-text-2 {
@@ -255,7 +254,7 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 0.875rem;
-  margin: 15px auto 0 13px;
+  margin: 463px auto 0 7px;
   padding: 0;
 }
 
@@ -950,7 +949,7 @@
   line-height: 1.8;
   font-size: 1.5rem;
   font-weight: 700;
-  margin: 20px 181px 0 153px;
+  margin: 58px 181px 0 153px;
 }
 
 .u-section-5 .u-image-3 {
@@ -958,20 +957,23 @@
   height: 152px;
   background-image: url("/images/vinDiesle.jpeg");
   background-position: 50% 50%;
-  margin: 20px 478px 0 450px;
+  margin: 12px auto 0 450px;
 }
 
 .u-section-5 .u-text-6 {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 2px;
-  margin: 30px 438px 0;
+  margin: 20px 452px 0 424px;
 }
 
 .u-section-5 .u-carousel-control-1 {
   width: 50px;
   height: 50px;
   background-image: none;
+  left: 0;
+  right: auto;
+  position: absolute;
 }
 
 .u-section-5 .u-carousel-control-2 {
@@ -1012,14 +1014,9 @@
     margin-right: 81px;
   }
 
-  .u-section-5 .u-image-3 {
-    margin-left: 350px;
-    margin-right: 378px;
-  }
-
   .u-section-5 .u-text-6 {
-    margin-left: 338px;
-    margin-right: 338px;
+    margin-left: 324px;
+    margin-right: 352px;
   }
 }
 
@@ -1077,11 +1074,6 @@
     margin-right: 0;
   }
 
-  .u-section-5 .u-image-3 {
-    margin-left: 240px;
-    margin-right: 268px;
-  }
-
   .u-section-5 .u-text-6 {
     width: 273px;
     margin-top: 31px;
@@ -1125,7 +1117,6 @@
 
   .u-section-5 .u-image-3 {
     margin-left: auto;
-    margin-right: auto;
   }
 }
 
@@ -1154,25 +1145,13 @@
   }
 } .u-section-6 {
   background-image: none;
-  min-height: 1027px;
-}
-
-.u-section-6 .u-shape-1 {
-  height: 114px;
-  margin-top: 853px;
-  margin-bottom: 0;
-}
-
-.u-section-6 .u-shape-2 {
-  height: 114px;
-  margin-top: -544px;
-  margin-bottom: 0;
+  min-height: 1093px;
 }
 
 .u-section-6 .u-text-1 {
   font-weight: 700;
   font-size: 4.5rem;
-  margin: -477px calc(((100% - 1140px) / 2) + 225px) 0 calc(((100% - 1140px) / 2) + -39px);
+  margin: 60px calc(((100% - 1140px) / 2) + 225px) 0 calc(((100% - 1140px) / 2) + -39px);
 }
 
 .u-section-6 .u-line-1 {
@@ -1186,15 +1165,15 @@
   margin: 29px calc(((100% - 1140px) / 2) + 659px) 0 calc(((100% - 1140px) / 2) + -39px);
 }
 
-.u-section-6 .u-shape-3 {
+.u-section-6 .u-shape-1 {
   height: 114px;
-  margin-top: 306px;
+  margin-top: 67px;
   margin-bottom: 0;
 }
 
 .u-section-6 .u-layout-wrap-1 {
   width: 1179px;
-  margin: -343px auto 0 calc(((100% - 1140px) / 2) + -39px);
+  margin: -121px auto 17px calc(((100% - 1140px) / 2) + -39px);
 }
 
 .u-section-6 .u-layout-cell-1 {
@@ -1335,23 +1314,12 @@
   height: 100%;
 }
 
-.u-section-6 .u-image-4 {
-  width: 517px;
-  height: 517px;
-  margin: -49px auto 0 calc(((100% - 1140px) / 2));
-}
-
 @media (max-width: 1199px) {
    .u-section-6 {
     min-height: 1052px;
   }
 
-  .u-section-6 .u-shape-1 {
-    margin-top: 878px;
-  }
-
   .u-section-6 .u-text-1 {
-    margin-top: -502px;
     margin-left: calc(((100% - 940px) / 2));
     margin-right: calc(((100% - 940px) / 2));
   }
@@ -1365,8 +1333,13 @@
     margin-left: calc(((100% - 940px) / 2) + -39px);
   }
 
+  .u-section-6 .u-shape-1 {
+    margin-top: 64px;
+  }
+
   .u-section-6 .u-layout-wrap-1 {
     width: 940px;
+    margin-top: -118px;
     margin-left: calc(((100% - 940px) / 2));
   }
 
@@ -1425,23 +1398,14 @@
     margin-right: 0;
     margin-left: 0;
   }
-
-  .u-section-6 .u-image-4 {
-    margin-left: calc(((100% - 940px) / 2));
-  }
 }
 
 @media (max-width: 991px) {
    .u-section-6 {
-    min-height: 981px;
-  }
-
-  .u-section-6 .u-shape-1 {
-    margin-top: 807px;
+    min-height: 513px;
   }
 
   .u-section-6 .u-text-1 {
-    margin-top: -431px;
     margin-left: calc(((100% - 720px) / 2));
     margin-right: calc(((100% - 720px) / 2));
   }
@@ -1455,8 +1419,13 @@
     margin-left: calc(((100% - 720px) / 2) + -39px);
   }
 
+  .u-section-6 .u-shape-1 {
+    margin-top: -91px;
+  }
+
   .u-section-6 .u-layout-wrap-1 {
     width: 720px;
+    margin-top: 37px;
     margin-left: calc(((100% - 720px) / 2));
   }
 
@@ -1514,10 +1483,6 @@
   .u-section-6 .u-text-7 {
     font-size: 1.5rem;
   }
-
-  .u-section-6 .u-image-4 {
-    margin-left: calc(((100% - 720px) / 2));
-  }
 }
 
 @media (max-width: 767px) {
@@ -1525,12 +1490,7 @@
     min-height: 2625px;
   }
 
-  .u-section-6 .u-shape-1 {
-    margin-top: 2451px;
-  }
-
   .u-section-6 .u-text-1 {
-    margin-top: -2075px;
     margin-left: calc(((100% - 540px) / 2));
     margin-right: calc(((100% - 540px) / 2));
   }
@@ -1544,8 +1504,13 @@
     margin-left: calc(((100% - 540px) / 2) + -39px);
   }
 
+  .u-section-6 .u-shape-1 {
+    margin-top: 1441px;
+  }
+
   .u-section-6 .u-layout-wrap-1 {
     width: 540px;
+    margin-top: -1495px;
     margin-left: calc(((100% - 540px) / 2));
   }
 
@@ -1587,10 +1552,6 @@
   .u-section-6 .u-image-3 {
     height: 527px;
   }
-
-  .u-section-6 .u-image-4 {
-    margin-left: calc(((100% - 540px) / 2));
-  }
 }
 
 @media (max-width: 575px) {
@@ -1598,17 +1559,8 @@
     min-height: 2479px;
   }
 
-  .u-section-6 .u-shape-1 {
-    margin-top: 1710px;
-  }
-
-  .u-section-6 .u-shape-2 {
-    margin-top: -595px;
-  }
-
   .u-section-6 .u-text-1 {
     font-size: 2.25rem;
-    margin-top: -1283px;
     margin-left: calc(((100% - 340px) / 2));
     margin-right: calc(((100% - 340px) / 2));
   }
@@ -1624,10 +1576,15 @@
     margin-right: 22px;
   }
 
+  .u-section-6 .u-shape-1 {
+    margin-top: 857px;
+  }
+
   .u-section-6 .u-layout-wrap-1 {
     width: 340px;
-    margin-top: -308px;
+    margin-top: -859px;
     margin-left: auto;
+    margin-bottom: 60px;
   }
 
   .u-section-6 .u-layout-cell-1 {
@@ -1712,13 +1669,6 @@
   .u-section-6 .u-social-icons-3 {
     margin-top: 8px;
     margin-left: -9px;
-  }
-
-  .u-section-6 .u-image-4 {
-    width: 340px;
-    height: 340px;
-    margin-top: -9px;
-    margin-left: auto;
   }
 } .u-section-7 {
   background-image: none;
