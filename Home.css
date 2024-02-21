@@ -245,7 +245,7 @@
 }
 
 .u-section-2 .u-layout-cell-2 {
-  min-height: 100px;
+  min-height: 337px;
 }
 
 .u-section-2 .u-container-layout-2 {
@@ -291,6 +291,7 @@
 .u-section-2 .u-image-3 {
   background-image: url("/images/MrATOM.png");
   background-position: 50% 50%;
+  min-height: 465px;
 }
 
 .u-section-2 .u-container-layout-4 {
@@ -315,6 +316,10 @@
     margin-left: 0;
   }
 
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 360px;
+  }
+
   .u-section-2 .u-group-1 {
     height: auto;
   }
@@ -328,10 +333,12 @@
     margin-top: 15px;
     margin-left: 0;
     margin-right: 0;
+    font-size: 1rem;
   }
 
   .u-section-2 .u-image-3 {
     background-position: 50% 54.8%;
+    min-height: 470px;
   }
 }
 
@@ -416,13 +423,15 @@
 
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 737px;
+    min-height: 1831px;
   }
 
   .u-section-2 .u-layout-wrap-1 {
-    width: 540px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-top: 29px;
+    margin-bottom: 25px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-2 .u-layout-cell-1 {
@@ -430,12 +439,30 @@
   }
 
   .u-section-2 .u-layout-cell-2 {
-    min-height: 100px;
+    min-height: 418px;
   }
 
   .u-section-2 .u-container-layout-3 {
     padding-left: 30px;
     padding-right: 30px;
+  }
+
+  .u-section-2 .u-text-4 {
+    font-size: 1.5rem;
+  }
+
+  .u-section-2 .u-image-1 {
+    width: 210px;
+    height: 66px;
+    margin-top: 119px;
+    margin-right: auto;
+    margin-left: 27px;
+  }
+
+  .u-section-2 .u-image-2 {
+    width: 210px;
+    height: 62px;
+    margin-top: -143px;
   }
 
   .u-section-2 .u-image-3 {
@@ -456,7 +483,9 @@
   .u-section-2 .u-layout-wrap-1 {
     margin-top: 13px;
     margin-bottom: 43px;
-    width: 340px;
+    width: auto;
+    margin-right: initial;
+    margin-left: initial;
   }
 
   .u-section-2 .u-text-1 {
@@ -470,6 +499,10 @@
 
   .u-section-2 .u-btn-1 {
     margin-top: 12px;
+  }
+
+  .u-section-2 .u-layout-cell-2 {
+    min-height: 100px;
   }
 
   .u-section-2 .u-group-1 {
@@ -496,7 +529,6 @@
     width: 192px;
     height: 53px;
     margin-top: 121px;
-    margin-right: auto;
   }
 
   .u-section-2 .u-image-2 {
@@ -672,7 +704,15 @@
 
 @media (max-width: 767px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 698px;
+    min-height: 675px;
+  }
+
+  .u-section-3 .u-layout-wrap-1 {
+    margin-top: 0;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 258px;
   }
 
   .u-section-3 .u-layout-cell-2 {
@@ -692,6 +732,10 @@
 
   .u-section-3 .u-layout-wrap-1 {
     margin-top: 45px;
+  }
+
+  .u-section-3 .u-layout-cell-1 {
+    min-height: 100px;
   }
 
   .u-section-3 .u-text-1 {
@@ -971,7 +1015,7 @@
 .u-section-5 .u-image-1 {
   width: 152px;
   height: 152px;
-  background-image: url("/images/troll2.jpg");
+  background-image: url("/images/TrollFace1.png");
   background-position: 50% 50%;
   margin: 20px auto 0;
 }
@@ -1066,6 +1110,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 715px;
+  }
+
   .u-section-5 .u-slider-1 {
     min-height: 600px;
     height: auto;
@@ -1088,14 +1136,21 @@
   }
 
   .u-section-5 .u-text-5 {
-    width: 747px;
-    margin-left: 53px;
-    margin-right: 81px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 67px;
+    margin-right: 67px;
+  }
+
+  .u-section-5 .u-image-3 {
+    margin-top: 88px;
+    margin-left: auto;
   }
 
   .u-section-5 .u-text-6 {
-    margin-left: 324px;
-    margin-right: 352px;
+    width: 204px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1148,7 +1203,6 @@
   }
 
   .u-section-5 .u-text-5 {
-    width: auto;
     margin-left: 0;
     margin-right: 0;
   }
@@ -1156,8 +1210,6 @@
   .u-section-5 .u-text-6 {
     width: 273px;
     margin-top: 31px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .u-section-5 .u-container-layout-4 {
@@ -1197,10 +1249,6 @@
 
   .u-section-5 .u-text-5 {
     font-size: 1.125rem;
-  }
-
-  .u-section-5 .u-image-3 {
-    margin-left: auto;
   }
 
   .u-section-5 .u-container-layout-4 {
