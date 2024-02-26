@@ -4,7 +4,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 537px;
+  min-height: 423px;
 }
 
 .u-section-1 .u-group-1 {
@@ -12,7 +12,7 @@
   --radius: 10px;
   height: auto;
   min-height: 283px;
-  margin: 122px auto 60px;
+  margin: 8px auto 60px;
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -61,7 +61,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 443px;
+    min-height: 349px;
   }
 
   .u-section-1 .u-group-1 {
@@ -73,7 +73,7 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 339px;
+    min-height: 267px;
   }
 
   .u-section-1 .u-group-1 {
@@ -83,7 +83,7 @@
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 254px;
+    min-height: 200px;
   }
 
   .u-section-1 .u-group-1 {
@@ -107,7 +107,7 @@
 
 @media (max-width: 575px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 160px;
+    min-height: 126px;
   }
 
   .u-section-1 .u-group-1 {
@@ -502,15 +502,9 @@
   min-height: 270px;
 }
 
-.u-section-3 .u-text-1 {
-  text-shadow: 2px 0px 8px rgba(128,128,128,1);
-  font-size: 4.5rem;
-  margin: 56px -18px 56px auto;
-}
-
 @media (max-width: 575px) {
-  .u-section-3 .u-text-1 {
-    font-size: 2.25rem;
+  .u-section-3 .u-sheet-1 {
+    min-height: 88px;
   }
 } .u-section-4 {
   background-image: url("/images/QD-OLED-3440x1440_MPG.jpg");
@@ -681,61 +675,44 @@
 }
 
 .u-section-5 .u-text-1 {
-  margin: 39px -11px 0 auto;
-}
-
-.u-section-5 .u-text-2 {
   text-shadow: -2px -2px 8px rgba(128,128,128,1);
   margin: 39px auto 52px 316px;
 }
 
 .u-section-5 .u-btn-1 {
   background-image: none;
+  font-size: 3rem;
   padding: 0;
 }
 
 @media (max-width: 1199px) {
   .u-section-5 .u-text-1 {
-    font-size: 3rem;
-  }
-
-  .u-section-5 .u-text-2 {
     margin-left: 261px;
-  }
-
-  .u-section-5 .u-btn-1 {
-    font-size: 3rem;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-5 .u-text-2 {
+  .u-section-5 .u-text-1 {
     margin-left: 200px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-5 .u-text-2 {
+  .u-section-5 .u-text-1 {
     margin-left: 150px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 156px;
+    min-height: 94px;
   }
 
   .u-section-5 .u-text-1 {
-    font-size: 1rem;
     width: auto;
-    margin-top: 27px;
-  }
-
-  .u-section-5 .u-text-2 {
-    width: auto;
-    margin-top: -6px;
-    margin-bottom: 46px;
-    margin-left: 0;
+    margin-top: -125px;
+    margin-left: auto;
+    margin-bottom: 60px;
   }
 
   .u-section-5 .u-btn-1 {
@@ -972,21 +949,20 @@
 
 @media (max-width: 575px) {
    .u-section-6 {
-    min-height: 1198px;
+    min-height: 1303px;
   }
 
   .u-section-6 .u-image-1 {
     width: 240px;
     height: 448px;
-    margin-top: 99px;
+    margin-top: 407px;
     margin-right: auto;
-    margin-left: calc(((100% - 1140px) / 2) + 198px);
   }
 
   .u-section-6 .u-image-2 {
     width: 225px;
     height: 421px;
-    margin-top: -537px;
+    margin-top: -845px;
     margin-right: auto;
     margin-left: calc(((100% - 1140px) / 2) + 458px);
   }
@@ -994,15 +970,14 @@
   .u-section-6 .u-image-3 {
     width: 242px;
     height: 452px;
-    margin-top: -347px;
-    margin-right: calc(((100% - 1140px) / 2) + 206px);
+    margin-top: 341px;
+    margin-right: auto;
   }
 
   .u-section-6 .u-gallery-1 {
     height: 313px;
     width: 376px;
-    margin-top: -418px;
-    margin-right: calc(((100% - 1140px) / 2) + 364px);
+    margin-top: -976px;
     margin-left: auto;
   }
 
@@ -1013,8 +988,8 @@
 
   .u-section-6 .u-group-1 {
     width: 342px;
-    margin-top: 20px;
-    margin-right: calc(((100% - 1140px) / 2) + 381px);
+    margin-top: 21px;
+    margin-right: auto;
   }
 
   .u-section-6 .u-container-layout-1 {
@@ -1051,6 +1026,12 @@
   opacity: 1 !important;
 }.u-section-7 .u-sheet-1 {
   min-height: 199px;
+}
+
+@media (max-width: 575px) {
+  .u-section-7 .u-sheet-1 {
+    min-height: 94px;
+  }
 } .u-section-8 {
   background-image: none;
 }
@@ -1698,6 +1679,12 @@
   }
 }.u-section-9 .u-sheet-1 {
   min-height: 199px;
+}
+
+@media (max-width: 575px) {
+  .u-section-9 .u-sheet-1 {
+    min-height: 95px;
+  }
 } .u-section-10 {
   background-image: url("/images/QD-OLED-3440x1440_MPG.jpg");
   background-position: 50% 50%;
@@ -1932,6 +1919,12 @@
   }
 }.u-section-11 .u-sheet-1 {
   min-height: 199px;
+}
+
+@media (max-width: 575px) {
+  .u-section-11 .u-sheet-1 {
+    min-height: 85px;
+  }
 } .u-section-12 {
   background-image: none;
 }
@@ -2032,13 +2025,13 @@
 
 @media (max-width: 575px) {
   .u-section-12 .u-sheet-1 {
-    min-height: 610px;
+    min-height: 681px;
   }
 
   .u-section-12 .u-text-1 {
     font-size: 2.25rem;
     width: 340px;
-    margin-top: 60px;
+    margin-top: 101px;
   }
 
   .u-section-12 .u-form-1 {
